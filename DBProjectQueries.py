@@ -52,7 +52,7 @@ query = """
 """
 print(SelectQuery(db_connect, query), '\n')
 
-# Query that updates the ClinicNo of the StaffMember with StaffNo 2
+# Query that updates the ClinicNo of the StaffMember with StaffNo 1
 query = """
     UPDATE StaffMember
     SET ClinicNo = 1
